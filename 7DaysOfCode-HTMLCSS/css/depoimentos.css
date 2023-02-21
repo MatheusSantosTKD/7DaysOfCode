@@ -1,0 +1,33 @@
+.depoimentos {
+    background-color: rgba(195, 25, 25, 0.03);
+    margin: 5em;
+    padding: 3em;
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+.titulo-depoimentos {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+    margin-bottom: 2em;
+}
+
+.opniao-depoimentos {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 1em;
+}
+
+.nome-desenvolvedor {
+    font-weight: 500;
+    color: var(--preto);
+    margin: 1em;
+}
+
+.cargo-depoimentos {
+    font-size: 14px;
+    color: var(--cinza);
+}

@@ -1,0 +1,61 @@
+
+.cabecalho,
+.cabecalho__logo,
+.cabecalho__menu,
+.lista__login {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho {
+    padding: 1.5em 3em;
+}
+
+.cabecalho__logo {
+    padding-right: 7em;
+}
+
+.logo {
+    margin: 0em 1em;
+}
+
+.cabecalho__titulo {
+    font-size: 18px;
+    font-weight: 500 ;
+    color: var(--cinza-escuro);
+}
+
+.menu__item {
+    padding: 0 1em;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.lista__login {
+    margin: 0 0 0 17em;
+}
+
+.login__link {
+    margin: 0 1em;
+    text-decoration: none;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.login__cadastrar {
+    color: var(--branco);
+    background-color: var(--vermelho-escuro);
+    padding: 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu__link:hover,
+.login__link:hover {
+    color: var(--vermelho-escuro);
+}
